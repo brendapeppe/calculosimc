@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(2, 82, 82, 0.521);
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 60px;
+    font-size: 20px;
+
+}
+section:not(#home){
+    padding: 100px 20px;
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 70vh;
+    }
+
+#home {
+    background-image: url(https://cdn.pixabay.com/photo/2022/10/24/15/17/scissors-7543699_640.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(0, 22, 22);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 2%;
+}
+p{
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    
+    
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content img{
+ width: 450px; 
+height: 350px; 
+object-fit: cover;
+margin-right: 20px; 
+border-radius: 8px
+}
+
+.text{
+    max-width: 50%;
+    text-align: left;
+}
